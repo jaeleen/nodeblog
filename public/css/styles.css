@@ -99,8 +99,8 @@ body{
     object-fit: cover;
   }
   img{
-    height: 350px;
-    width: 365px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
   }
   
@@ -109,10 +109,10 @@ body{
     font-size: 14px;
     letter-spacing: 0.09rem;
     overflow: hidden;
-    height: 250px;
+    height: 200px;
     width: 87%;
     position: absolute;
-    bottom: 110px;
+    bottom: 210px;
     background-color: white;
     color: black;
     padding-left: 20px;
