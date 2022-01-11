@@ -3,6 +3,7 @@ body{
     background: url(/images/pinkblog\ background.jpeg);
     background-repeat: no-repeat;
     font-family: sans-serif;
+    overflow: hidden; /* Hide scrollbars */
 }
 #smiley{
     font-family: 'Gochi Hand', cursive;
