@@ -3,7 +3,7 @@ body{
     background: url(/images/pinkblog\ background.jpeg);
     background-repeat: no-repeat;
     font-family: sans-serif;
-    overflow: hidden; /* Hide scrollbars */
+    overflow-y: hidden;
 }
 #smiley{
     font-family: 'Gochi Hand', cursive;
@@ -26,10 +26,7 @@ body{
     color: #083358;
     cursor: pointer;
 }
-.logo{
-    height: 50px;
-    margin-left: 20px;
-}
+
 #quote{
     font-size: 10px;
     color: #083358;
@@ -88,15 +85,23 @@ body{
   text-align: center;
   vertical-align: middle;
 }
+.antisocial{
+    margin-top: -60px;
+}
 
 /* Main post */
 .imgbox {
+    margin-top: -80px;
     position: relative;
     font-family: Arial;
-    height: 350px;
-    width: 365px;
     padding-right: 5px;
     padding-left: 5px;
+    object-fit: cover;
+  }
+  img{
+    height: 350px;
+    width: 365px;
+    object-fit: cover;
   }
   
   .text-block {
@@ -107,7 +112,7 @@ body{
     height: 250px;
     width: 87%;
     position: absolute;
-    bottom: 150px;
+    bottom: 110px;
     background-color: white;
     color: black;
     padding-left: 20px;
