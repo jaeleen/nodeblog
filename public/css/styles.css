@@ -63,11 +63,11 @@ body{
 .fa-play:hover{
     font-size: 12px;
 }
-#more{
+.more{
     cursor: pointer;
     text-decoration: underline;
 }
-#more:hover{
+.more:hover{
     font-size: 12px;
 }
 
@@ -93,15 +93,18 @@ body{
     position: relative;
     font-family: Arial;
     height: 350px;
-    width: 350px;
+    width: 365px;
     padding-right: 5px;
     padding-left: 5px;
   }
   
   .text-block {
-      overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.09rem;
+    overflow: hidden;
     height: 250px;
-    width: 86%;
+    width: 87%;
     position: absolute;
     bottom: 150px;
     background-color: white;
@@ -109,6 +112,12 @@ body{
     padding-left: 20px;
     padding-right: 20px;
   }
+  .text-block h4{
+    text-align: left;
+}
+.sign{
+    text-align: right;
+}
 /* Footer Styling */
 .footer{
     position: fixed;
