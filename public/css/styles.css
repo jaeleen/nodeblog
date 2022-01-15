@@ -3,7 +3,6 @@ body{
     background: url(/images/pinkblog\ background.jpeg);
     background-repeat: no-repeat;
     font-family: sans-serif;
-    overflow-y: hidden;
 }
 #smiley{
     font-family: 'Gochi Hand', cursive;
@@ -28,6 +27,9 @@ body{
 }
 
 #quote{
+    letter-spacing: 0.05rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -35px;
     font-size: 10px;
     color: #083358;
 }
@@ -97,6 +99,8 @@ body{
     padding-right: 5px;
     padding-left: 5px;
     object-fit: cover;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   img{
     height: 400px;
@@ -124,6 +128,21 @@ body{
 .sign{
     text-align: right;
 }
+
+
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.content {
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+
 /* Footer Styling */
 .footer{
     position: fixed;
